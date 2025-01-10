@@ -1,0 +1,48 @@
+
+.dark{
+    color: rgba(14, 14, 14, 1);;
+}
+
+/* banner style */
+
+.banner{
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: space-around;
+    margin: 62px 158px 0 160px;
+    border-radius: 10px;
+    padding: 80px 100px;
+    gap: 60px;
+
+}
+.banner-content{
+    max-width: 620px;
+    
+}
+
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn-primary{
+    background-color: rgba(0, 106, 80, 1);
+    font-weight: bold;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    padding: 34px 17px;
+    border-radius: 5px;
+}
+.banner-subtitle{
+    color:rgba(14, 14, 14, 0.5) ;
+    font-size: 24px;
+}
+.banner-title{
+    font-size: 50px;
+}
+
+.banner-pic{
+    width: 475px;
+}
