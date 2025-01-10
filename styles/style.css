@@ -1,7 +1,16 @@
 
 .dark{
-    color: rgba(14, 14, 14, 1);;
+    color: rgba(14, 14, 14, 1);
 }
+
+
+/* share style */
+.p-color{
+    color: rgba(80, 78, 78, 0.7);
+    
+
+}
+
 
 /* banner style */
 
@@ -46,3 +55,76 @@
 .banner-pic{
     width: 475px;
 }
+
+/* future style */
+
+.future-title{
+    font-weight: 360px;
+}
+
+
+.btn-future-1{
+    background-color: rgba(84, 144, 245, 1);
+    color: white;
+    font-weight: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 11px;
+}
+
+.btn-future-2{
+    background-color:rgba(9, 161, 92, 1) ;
+    color: white;
+    font-weight: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 11px;
+}
+
+.btn-future-3{
+    background-color:rgba(255, 194, 57, 1) ;
+    color: white;
+    font-weight: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 11px;
+}
+
+.future-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 27px;
+    /* padding: 32px 32px; */
+    margin-right: 50px ;
+}
+
+/* .section{
+    margin: 80px 150px;
+    gap: 32px;
+} */
+main{
+    margin: 62px 159px 0 160px;
+}
+.future{
+    border-color: aqua;
+ }
+.box-colour-1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+    padding: 32px 32px;
+}
+.box-colour-2{
+    background-color:rgba(198, 228, 214, 1) ;
+    padding: 32px 32px;
+}
+
+.box-colour-3{
+    background-color:rgba(247, 235, 207, 1) ;
+    padding: 32px 32px;
+}
+
+
+    /* color: white;
+    font-weight: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 11px; */ 
