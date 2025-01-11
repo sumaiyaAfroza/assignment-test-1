@@ -7,6 +7,7 @@
 /* share style */
 .p-color{
     color: rgba(80, 78, 78, 0.7);
+    font-size: 14px;
     
 
 }
@@ -93,8 +94,7 @@
 .future-container{
     display: flex;
     justify-content: space-around;
-    gap: 27px;
-    /* padding: 32px 32px; */
+    gap: 27px ;
     margin-right: 50px ;
 }
 
@@ -122,9 +122,87 @@ main{
     padding: 32px 32px;
 }
 
+/* news style */
 
-    /* color: white;
+.news{
+    /* display: flex; */
+    background-color:rgb(250, 247, 247);
+    display: flex;
+    justify-content: space-around;
+    /* margin: 62px 158px 0 160px; */
+    border-radius: 24px;
+    padding: 48px 48px;
+    gap: 32px;
+    
+}
+
+.news-pic-1{
+    width: 408px;
+}
+.news-btn, .news-btn-ok{
+    background-color:rgba(0, 106, 80, 1) ;
+    color: white;
+    font-weight: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 15px;
+}
+.news-box-2{
+    margin-top: 24px;
+}
+
+/* Donate er taka */
+
+.box-tk{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 50s;
+    font-size:20px;
+    padding: 20px 25px 25px ;
+}
+
+.Donate{
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: center;
+    gap: 32px;
+    /* margin-top: 30px;  */
+}
+
+
+    /* text-align: center;
+    width: 1280px;
+    /* height: 464px; */
+    /* background-color: none;
+    border-radius: 0; */
+    /* gap: 30px; */
+    /* margin: 62px 159px 0 160px; */
+
+
+
+.tk-box-1{
+    background-color:rgb(247, 246, 246) ;
+}
+
+.tk-box-2{
+    background-color:rgba(198, 228, 214, 1) ;
+}
+
+.tk-box-1, .tk-box-2{
+
+    font-size: 23px; */
     font-weight: 16px;
     border: none;
-    border-radius: 5px;
-    padding: 15px 11px; */ 
+    border-radius: 16px;
+     padding:35px 50px; */
+    /* margin: 30px 30px 5px 5px; */
+}  
+
+.inpute{
+    background-color:rgb(247, 246, 246) ;
+    border: none;
+    padding: 15px 320px;
+}
+.news-btn-ok{
+    margin-top: 28px;
+}
