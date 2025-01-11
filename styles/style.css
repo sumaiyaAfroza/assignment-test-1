@@ -188,14 +188,14 @@ main{
     background-color:rgba(198, 228, 214, 1) ;
 }
 
-.tk-box-1, .tk-box-2{
+.tk-box-1, .tk-box-2 {
 
     font-size: 23px; */
     font-weight: 16px;
     border: none;
     border-radius: 16px;
      padding:35px 50px; */
-    /* margin: 30px 30px 5px 5px; */
+    
 }  
 
 .inpute{
@@ -205,4 +205,68 @@ main{
 }
 .news-btn-ok{
     margin-top: 28px;
+}
+
+/* subscrib styles */
+
+.box{
+    background-color:rgba(198, 228, 214, 1);
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* margin: 62px 158px 0 160px; */
+    border-radius: 24px;
+    margin-top: 40px;
+    padding: 70px 110px;
+    gap: 35px;
+
+}
+
+.parent{
+    display: flex;
+    
+}
+
+.child-2{
+    border: 1px solid none ;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: rgb(245, 242, 242);
+    background-color:rgba(0, 106, 80, 1) ;
+    padding: 10px 40px ;
+    font-size: 18px;
+     /* width:80px; */
+}
+main input[type="text"]{
+    /* height: 20px; */
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 400px ;
+    padding: 15px 40px;
+    border: none;
+}
+
+.subscribe-section{
+    text-align: center;
+    margin: 30px 90px 30px 90px;
+    gap:20 ;
+
+}
+
+
+.hobe:hover{
+    background-color: rgb(95, 130, 138);
+}
+
+/* footer style */
+
+.fot{
+    /* width: 100%; */
+    background-color:rgb(247, 246, 246);
+    text-align: center;
+    
+    padding:15px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 60px ;
 }
