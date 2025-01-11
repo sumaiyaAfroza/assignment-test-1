@@ -7,7 +7,7 @@
 /* share style */
 .p-color{
     color: rgba(80, 78, 78, 0.7);
-    font-size: 14px;
+    font-size: 12px;
     
 
 }
@@ -57,6 +57,20 @@
     width: 475px;
 }
 
+.icon{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 5px 0px ;
+}
+
+.size-kormu{
+    border-radius:16px ;
+    padding: 48px 24px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+
+}
+
 /* future style */
 
 .future-title{
@@ -98,10 +112,7 @@
     margin-right: 50px ;
 }
 
-/* .section{
-    margin: 80px 150px;
-    gap: 32px;
-} */
+
 main{
     margin: 62px 159px 0 160px;
 }
@@ -125,11 +136,10 @@ main{
 /* news style */
 
 .news{
-    /* display: flex; */
+    
     background-color:rgb(250, 247, 247);
     display: flex;
     justify-content: space-around;
-    /* margin: 62px 158px 0 160px; */
     border-radius: 24px;
     padding: 48px 48px;
     gap: 32px;
@@ -166,19 +176,8 @@ main{
     padding: 20px 50px;
     text-align: center;
     gap: 32px;
-    /* margin-top: 30px;  */
+    
 }
-
-
-    /* text-align: center;
-    width: 1280px;
-    /* height: 464px; */
-    /* background-color: none;
-    border-radius: 0; */
-    /* gap: 30px; */
-    /* margin: 62px 159px 0 160px; */
-
-
 
 .tk-box-1{
     background-color:rgb(247, 246, 246) ;
@@ -211,9 +210,6 @@ main{
 
 .box{
     background-color:rgba(198, 228, 214, 1);
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* margin: 62px 158px 0 160px; */
     border-radius: 24px;
     margin-top: 40px;
     padding: 70px 110px;
@@ -234,10 +230,9 @@ main{
     background-color:rgba(0, 106, 80, 1) ;
     padding: 10px 40px ;
     font-size: 18px;
-     /* width:80px; */
+    
 }
 main input[type="text"]{
-    /* height: 20px; */
     background-color: white;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -258,15 +253,28 @@ main input[type="text"]{
     background-color: rgb(95, 130, 138);
 }
 
+
 /* footer style */
 
 .fot{
-    /* width: 100%; */
     background-color:rgb(247, 246, 246);
     text-align: center;
-    
     padding:15px;
     padding-left: 160px;
     padding-right: 160px;
     margin-top: 60px ;
+}
+
+
+/* icon style */
+
+.vitorer-box{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 2px;
+    border:none;
+    background-color: rgb(250, 247, 247);
+    border-radius:16px ;
+    padding: 24px 20px;
+    margin-top: 32px;
 }
